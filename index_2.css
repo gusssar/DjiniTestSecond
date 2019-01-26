@@ -144,11 +144,95 @@ body{
     left: 75px;
 }
 
+.inline-item{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 10px 1% 0;
+    padding: 60px 0 0;
+    width: 230px;
+}
 
+.businesscard-item:before{
+    background: url("./src/features/businesscard.svg") no-repeat 50% 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 64px;
+    height: 64px;
+}
 
+.dns-item:before{
+    background: url("./src/features/dns.svg") no-repeat 50% 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 85px;
+    width: 64px;
+    height: 64px;
+}
 
+.certificate-item:before{
+    background: url("./src/features/certificate.svg") no-repeat 50% 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 64px;
+    height: 64px;
+}
 
+.autorenewal-item:before{
+    background: url("./src/features/autorenewal.svg") no-repeat 50% 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 85px;
+    width: 64px;
+    height: 64px;
+}
 
+.cloud-item:before{
+    background: url("./src/features/cloud.svg") no-repeat 50% 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 64px;
+    height: 64px;
+}
+
+.freessl-item:before{
+    background: url("./src/features/freessl.svg") no-repeat 50% 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 64px;
+    height: 64px;
+}
+
+.dnssec-item:before{
+    background: url("./src/features/dnssec.svg") no-repeat 50% 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 64px;
+    height: 64px;
+}
+
+.redirect-item:before{
+    background: url("./src/features/redirect.svg") no-repeat 50% 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 64px;
+    height: 64px;
+}
 
 
 
