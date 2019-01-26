@@ -1,0 +1,166 @@
+body{
+    /*width: 90%;*/
+    /*max-width: 1092px;*/
+    /*min-width: 819px;*/
+    /*margin: 0 auto;*/
+    font-family: 'PT Sans', sans-serif;
+    position: relative;
+}
+.first-list{
+    height: 102vh;
+    margin: -25px -8px 0;
+    color: white;
+    background: url("src/png/background1.jpg") 100% 100%;
+    background-size: cover;
+}
+.first-list-content{
+    position: relative;
+    width: 90%;
+    max-width: 1092px;
+    min-width: 819px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+.header{
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+#first-list-logo-text object{
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+#first-list-logo-text span{
+    position: absolute;
+    top: 50px;
+    left: 75px;
+}
+
+#title{
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 80px;
+    margin: 100px 0 40px;
+}
+
+#domen-form{
+    text-align: center;
+    width: 724px;
+    margin: 0 auto
+}
+
+.domen-form-div{
+    margin: 0 auto;
+    width: 574px;
+    /*border: 1px solid black;*/
+    border-radius: 12px;
+    background: #666666;
+    /*opacity: 0.5;*/
+}
+
+#domen-form-input{
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    padding: 12px;
+    width: 550px;
+    margin: 0 auto;
+    background: white;
+}
+#domen-form-input-name{
+    border: 0;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    outline: none;
+}
+#domen-form-input-btn{
+    font-size: 18px;
+    /*border: 1px solid black;*/
+    border: 0;
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+    background: #666666;
+    color: white;
+}
+
+#domen-form-subtitle{
+    /*margin: 10px;*/
+    padding: 10px;
+ }
+
+#domen-form-subtitle-status{
+    font-weight: bold;
+}
+
+#domen-form-subtitle a{
+    color: #66cc33;
+}
+
+#create-acc-btn{
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    color: white;
+    background: #66cc33;
+}
+#next-page{
+    text-align: center;
+    margin: 120px 0 40px;
+}
+
+
+
+
+
+
+
+.second-list{
+    height: 102vh;
+    margin: -25px -8px 0;
+}
+.second-list-content{
+    position: relative;
+    width: 90%;
+    max-width: 1092px;
+    min-width: 819px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+#second-list-logo-text object{
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+#second-list-logo-text span{
+    position: absolute;
+    top: 50px;
+    left: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
