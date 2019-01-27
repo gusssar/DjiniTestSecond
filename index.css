@@ -3,13 +3,13 @@ body{
     position: relative;
     margin-bottom: -8px;
     margin-top: 0;
+    min-width: 1190px;
 }
 .first-list{
     position: relative;
     height: 99.9vh;
     min-width: 819px;
     min-height: 770px;
-    /*margin: -25px -8px 0;*/
     margin: 0 -8px;
     color: white;
     background: url("src/png/background1.jpg") 100% 100%;
@@ -91,7 +91,6 @@ body{
 #domen-form-subtitle{
     margin-top: -20px;
     padding: 30px 10px 10px;
-    /*background: rgba(102, 102, 102, .5);*/
     background: rgba(0, 0, 0, .4);
     border-radius: 12px;
  }
@@ -141,7 +140,6 @@ body{
     min-height: 775px;
     position: relative;
     width: 90%;
-    /*height: 95%;*/
     max-width: 1092px;
     min-width: 819px;
     margin: 0 auto;
@@ -155,7 +153,7 @@ body{
 }
 #second-list-logo-text span{
     position: absolute;
-    top: 50px;
+    top: 47px;
     left: 75px;
 }
 
@@ -288,9 +286,7 @@ li h3{
 .create-acc-2{
     text-align: center;
 }
-#create-acc-btn-2{
-    /*margin-top: -10px;*/
-}
+
 
 
 .third-list{
@@ -321,7 +317,7 @@ li h3{
 }
 #third-list-logo-text span{
     position: absolute;
-    top: 25px;
+    top: 22px;
     left: 75px;
 }
 
@@ -370,7 +366,6 @@ li h3{
 .footer{
     position: absolute;
     bottom: 20px;
-    /*margin-top: 50px;*/
     font-size: 14px;
     text-align: left;
     opacity: .5;
