@@ -98,7 +98,7 @@ body{
     color: #66cc33;
 }
 
-#create-acc-btn{
+.create-acc-btn{
     margin: 30px;
     font-size: 20px;
     font-weight: bold;
@@ -232,6 +232,10 @@ body{
     left: 80px;
     width: 64px;
     height: 64px;
+}
+
+li h3{
+    height: 48px;
 }
 
 
