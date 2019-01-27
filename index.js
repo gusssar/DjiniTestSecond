@@ -1,3 +1,6 @@
+let domen_form_input_btn = document.getElementById('domen-form-input-btn');
+let domen_form_input_name = document.getElementById('domen-form-input-name');
+
 let businesscard = document.getElementById('businesscard');
 let dns = document.getElementById('dns');
 let certificate = document.getElementById('certificate');
@@ -6,6 +9,21 @@ let cloud = document.getElementById('cloud');
 let freessl = document.getElementById('freessl');
 let dnssec = document.getElementById('dnssec');
 let redirect = document.getElementById('redirect');
+
+domen_form_input_btn.onclick = function () {
+    if(domen_form_input_name.value.length>0){
+        document.getElementById('domen-form-input').style.border='';
+        document.getElementById('domen-form-subtitle-status').innerHTML
+            = 'Домен '+ domen_form_input_name.value + '.ru &#8212; свободен';
+        document.getElementById('domen-form-subtitle-status').style.color = 'white';
+    }else {
+        document.getElementById('domen-form-input').style.border='1px solid red';
+        document.getElementById('domen-form-subtitle-status').innerHTML = 'Обязательное поле для ввода';
+        document.getElementById('domen-form-subtitle-status').style.color = 'red';
+    }
+    console.log(document.getElementById('domen-form-input-name').value);
+
+};
 
 
 
@@ -132,3 +150,4 @@ redirect.onclick = function () {
     redirect.style.marginBottom = '175px';
     }
 };
+
