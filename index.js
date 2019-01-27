@@ -1,6 +1,8 @@
 let domen_form_input_btn = document.getElementById('domen-form-input-btn');
 let domen_form_input_name = document.getElementById('domen-form-input-name');
 
+// let next_page = document.getElementById('next-page');
+
 let businesscard = document.getElementById('businesscard');
 let dns = document.getElementById('dns');
 let certificate = document.getElementById('certificate');
@@ -25,6 +27,11 @@ domen_form_input_btn.onclick = function () {
 
 };
 
+// next_page.onclick = function () {
+//     console.log(window.location.hash);
+//     window.location.hash='second-list-logo';
+//     console.log(window.location.hash);
+// };
 
 
     function CleanLi(){

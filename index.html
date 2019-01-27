@@ -10,7 +10,7 @@
 <body>
     <div class="first-list">
         <div class="first-list-content">
-            <div class="header">
+            <div class="header" id="first-list-header">
                 <div id="first-list-logo-text">
                     <object id="first-list-logo" type="image/svg+xml" data="./src/svg/logo_white.svg">ДЖИНО</object>
                     <span style="font-weight: bold; letter-spacing: 1px;">домены</span>
@@ -36,20 +36,23 @@
                     </div>
                     <button id="create-acc-btn-1" class="create-acc-btn">Создать аккаунт</button>
                 </div>
-                <div id="next-page"><img src="src/png/down.png"></div>
+
             </div>
+            <!--<div id="next-page"><img src="src/png/down.png"></div>-->
         </div>
+        <div id="next-page"><a href="#second-list-header"><img src="src/png/down.png"></a></div>
+        <!--<div id="next-page"><img src="src/png/down.png"></div>-->
     </div>
 
     <div class="second-list">
-        <div class="second-list-content">
-            <div class="header">
+        <div class="second-list-content" id="second-list-content">
+            <div class="header" id="second-list-header">
                 <div id="second-list-logo-text">
                     <object id="second-list-logo" type="image/svg+xml" data="./src/svg/logo_red.svg">ДЖИНО</object>
                     <span>домены</span>
                 </div>
             </div>
-            <h2 style="text-align: center; margin: 80px 0">Зарегистрировав у нас домен, вы получите</h2>
+            <h2 style="text-align: center; margin: 80px 0 40px">Зарегистрировав у нас домен, вы получите</h2>
             <ul id="item-list">
                 <li id="businesscard" class="inline-item businesscard-item">
                     <h3>Сайт-визитка</h3>

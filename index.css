@@ -2,21 +2,27 @@ body{
     font-family: 'PT Sans', sans-serif;
     position: relative;
     margin-bottom: -8px;
+    margin-top: 0;
 }
 .first-list{
-    height: 102vh;
-    margin: -25px -8px 0;
+    position: relative;
+    height: 99.9vh;
+    min-width: 819px;
+    min-height: 770px;
+    /*margin: -25px -8px 0;*/
+    margin: 0 -8px;
     color: white;
     background: url("src/png/background1.jpg") 100% 100%;
     background-size: cover;
 }
 .first-list-content{
     position: relative;
+    height: 99.9vh;
     width: 90%;
     max-width: 1092px;
     min-width: 819px;
     margin: 0 auto;
-    padding: 25px 0;
+    padding-top: 1px;
 }
 .header{
     margin-top: 25px;
@@ -26,14 +32,15 @@ body{
 }
 #first-list-logo-text object{
     position: absolute;
-    top: 50px;
+    top: 25px;
     left: 0;
 }
 #first-list-logo-text span{
     position: absolute;
-    top: 47px;
+    top: 23px;
     left: 75px;
 }
+
 
 #title{
     font-size: 70px;
@@ -107,10 +114,14 @@ body{
     height: 50px;
     color: white;
     background: #66cc33;
+    outline: none;
+    cursor: pointer;
 }
+
 #next-page{
-    text-align: center;
-    margin: 120px 0 40px;
+    position: absolute;
+    bottom: 50px;
+    left: 48.5%;
 }
 
 
@@ -120,14 +131,17 @@ body{
 
 
 .second-list{
-    height: 102vh;
+    height: 99.9vh;
+    min-height: 775px;
     min-width: 1190px;
-    margin: -25px -8px 0;
+    margin: 0 -8px;
 }
 .second-list-content{
+    height: 99.9vh;
+    min-height: 775px;
     position: relative;
     width: 90%;
-    height: 95%;
+    /*height: 95%;*/
     max-width: 1092px;
     min-width: 819px;
     margin: 0 auto;
@@ -273,24 +287,30 @@ li h3{
 
 .create-acc-2{
     text-align: center;
-    bottom: 40px;
+}
+#create-acc-btn-2{
+    /*margin-top: -10px;*/
 }
 
 
-
 .third-list{
-    height: 100vh;
-    margin: 12px -8px 0;
+    position: relative;
+    height: 99.9vh;
+    min-height: 775px;
+    margin: 0 -8px;
     color: white;
     background: url("src/png/background2.jpg") 100% 100%;
     background-size: cover;
 }
 .third-list-content{
     position: relative;
+    height: 99.9vh;
+    min-height: 775px;
     width: 90%;
     max-width: 1092px;
     min-width: 819px;
     margin: 0 auto;
+    padding: 0 0;
     text-align: center;
 }
 
@@ -325,7 +345,7 @@ li h3{
 .banner div:first-child{
     text-align: left;
     float: left;
-    width: 80%;
+    width: 70%;
     display: inline-block;
     font-size: 20px;
 }
@@ -333,6 +353,8 @@ li h3{
 .banner div:nth-child(2){
     float: right;
     display: inline-block;
+    padding-left: 80px;
+    border-left: 2px solid rgba(255,255,255,0.3);
 }
 
 #plus{
@@ -346,7 +368,9 @@ li h3{
 }
 
 .footer{
-    margin-top: 50px;
+    position: absolute;
+    bottom: 20px;
+    /*margin-top: 50px;*/
     font-size: 14px;
     text-align: left;
     opacity: .5;
