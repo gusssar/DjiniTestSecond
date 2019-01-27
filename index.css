@@ -1,8 +1,4 @@
 body{
-    /*width: 90%;*/
-    /*max-width: 1092px;*/
-    /*min-width: 819px;*/
-    /*margin: 0 auto;*/
     font-family: 'PT Sans', sans-serif;
     position: relative;
 }
@@ -53,14 +49,11 @@ body{
 .domen-form-div{
     margin: 0 auto;
     width: 574px;
-    /*border: 1px solid black;*/
     border-radius: 12px;
     background: #666666;
-    /*opacity: 0.5;*/
 }
 
 #domen-form-input{
-    /*border: 1px solid black;*/
     border-radius: 10px;
     padding: 12px;
     width: 550px;
@@ -76,7 +69,6 @@ body{
 }
 #domen-form-input-btn{
     font-size: 18px;
-    /*border: 1px solid black;*/
     border: 0;
     border-radius: 10px;
     width: 140px;
@@ -122,11 +114,13 @@ body{
 
 .second-list{
     height: 102vh;
+    min-width: 1190px;
     margin: -25px -8px 0;
 }
 .second-list-content{
     position: relative;
     width: 90%;
+    height: 95%;
     max-width: 1092px;
     min-width: 819px;
     margin: 0 auto;
@@ -237,6 +231,45 @@ body{
 li h3{
     height: 48px;
 }
+
+.inlayset-content{
+    position: absolute;
+    padding: 20px 40px;
+    width: 920px;
+    z-index: 5;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f7f7f7;
+    text-align: left;
+    top: 140px;
+}
+
+.businesscard-item .inlayset-content,
+.cloud-item .inlayset-content{
+    left: 0;
+}
+
+.dns-item .inlayset-content,
+.freessl-item .inlayset-content{
+    left: -255px;
+}
+
+.certificate-item .inlayset-content,
+.dnssec-item .inlayset-content{
+    left: -511px;
+}
+
+.autorenewal-item .inlayset-content,
+.redirect-item .inlayset-content{
+    left: -766px;
+}
+
+.create-acc-2{
+    text-align: center;
+    bottom: 40px;
+}
+
+
 
 
 
