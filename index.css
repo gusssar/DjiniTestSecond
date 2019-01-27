@@ -1,6 +1,7 @@
 body{
     font-family: 'PT Sans', sans-serif;
     position: relative;
+    margin-bottom: -8px;
 }
 .first-list{
     height: 102vh;
@@ -20,7 +21,8 @@ body{
 .header{
     margin-top: 25px;
     font-size: 12px;
-    font-weight: bold;
+    /*font-weight: bold;*/
+
 }
 #first-list-logo-text object{
     position: absolute;
@@ -271,16 +273,82 @@ li h3{
 
 
 
+.third-list{
+    height: 100vh;
+    margin: 12px -8px 0;
+    color: white;
+    background: url("src/png/background2.jpg") 100% 100%;
+    background-size: cover;
+}
+.third-list-content{
+    position: relative;
+    width: 90%;
+    max-width: 1092px;
+    min-width: 819px;
+    margin: 0 auto;
+    text-align: center;
+}
 
+#third-list-logo-text object{
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+#third-list-logo-text span{
+    position: absolute;
+    top: 25px;
+    left: 75px;
+}
 
+.third-list-content>h2{
+    padding: 100px 0 50px;
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.third-list-content>h1{
+    margin: 10px 0 0;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
 
+.banner{
+    border-radius: 5px;
+    padding: 30px 40px;
+    background: #cc3366
+}
+.banner div:first-child{
+    text-align: left;
+    float: left;
+    width: 80%;
+    display: inline-block;
+    font-size: 20px;
+}
 
+.banner div:nth-child(2){
+    float: right;
+    display: inline-block;
+}
 
+#plus{
+    width: 24px; height: 24px
+}
 
+.banner div:nth-child(2) span{
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
 
-
-
-
+.footer{
+    margin-top: 50px;
+    font-size: 14px;
+    text-align: left;
+    opacity: .5;
+}
+.footer>a{
+    color: white;
+}
 
 
 
